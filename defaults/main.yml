@@ -1,7 +1,7 @@
 ---
 
 yarn_repository_urls:
-  - 'deb https://dl.yarnpkg.com/{{ ansible_distribution|lower }}/ stable main'
+  - 'deb https://dl.yarnpkg.com/debian/ stable main'
 
 yarn_apt_key: 'https://dl.yarnpkg.com/debian/pubkey.gpg'
 

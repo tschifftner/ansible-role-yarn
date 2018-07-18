@@ -24,6 +24,8 @@
   apt_key:
     url: '{{ yarn_apt_key }}'
     state: present
+    cache_valid_time: 86400
+    update_cache: yes
 
 - name: Add yarn repositories
   apt_repository:

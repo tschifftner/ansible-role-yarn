@@ -1,0 +1,5 @@
+---
+
+- name: Install yarn
+  include: install.yml
+  tags: ['yarn-install']

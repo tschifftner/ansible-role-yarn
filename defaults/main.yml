@@ -1,0 +1,11 @@
+---
+
+yarn_repository_urls:
+  - 'deb https://dl.yarnpkg.com/{{ ansible_distribution | lowercase}}/ stable main'
+  - 'deb-src https://dl.yarnpkg.com/{{ ansible_distribution | lowercase}}/ stable main'
+
+yarn_apt_key: 'https://dl.yarnpkg.com/debian/pubkey.gpg'
+
+yarn_apt_packages:
+  - yarn
+  - build-essential
